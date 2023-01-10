@@ -36,7 +36,7 @@ public class GameGenerator {
                 int[][] toBeSolved = new int[GRID_BOUNDARY][GRID_BOUNDARY];
                 SudokuUtilities.copySudokuArrayValues(solveableArray,toBeSolved);
 
-                solvable = sudokuSolver.puzzleIsSolvable(toBeSolved);
+                solvable = SudokuSolver.puzzleIsSolvable(toBeSolved);
 
 
             }

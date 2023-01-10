@@ -3,7 +3,7 @@ package sudoku.userinterface;
 import sudoku.problemdomain.SudokuGame;
 
 public class IUserInterfaceContract {
-    interface EventListener{
+    public interface EventListener{
         void onSudokuInput(int x, int y, int input);
         void onDialogClick();
     }
